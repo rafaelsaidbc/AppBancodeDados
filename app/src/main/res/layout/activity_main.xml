@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <TextView
+        android:id="@+id/textViewEndereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Endereço"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <EditText
+        android:id="@+id/editTextEndereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <TextView
+        android:id="@+id/textViewEmpresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Empresa"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <EditText
+        android:id="@+id/editTextEmpresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <Button
+        android:id="@+id/btnInserir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Inserir no db"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <Button
+        android:id="@+id/btnListar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Lista Registros do DB"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="414dp" />
+</LinearLayout>
